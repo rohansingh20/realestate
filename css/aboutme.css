@@ -3,6 +3,11 @@
   cursor: cell;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 ::selection {
   background-color: #e0ce26;
   color: #0e151c;
